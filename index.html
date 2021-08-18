@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Password Generator</title>
+</head>
+
+<body>
+    <div class="wrap2">
+        <div class="wrap">
+            <h2></h2>
+            <input type="number" id="field" class="text" maxlength="2" autocomplete="off" min="1" max="50"
+                onkeyup="if(parseInt(this.value)>50){ this.value =50; return false; }"
+                oninput="this.value=this.value.replace(/[^0-9]/g,'');">
+            <input type="submit" value="Start" class="btn" onclick="go()">
+        </div>
+
+
+        <div class="div">
+            <p id="copy"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
