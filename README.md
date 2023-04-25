@@ -1,6 +1,6 @@
 # Password Generator
 
-Password generator generates a password with random letters, numbers and characters.
+Password generator generates passwords with random letters, numbers and characters.
 
 <a href="https://veronikagregorec.github.io/password-generator/">Live Preview</a>
 
