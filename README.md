@@ -1,12 +1,26 @@
 # Password Generator
 
-Created with HTML5, CSS3 and JavaScript. I made a desktop and a tablet version.
+Password generator generates a password with random letters, numbers and characters.
 
-## Description
+<a href="https://veronikagregorec.github.io/password-generator/">Live Preview</a>
 
-You can enter a value from 1 to 50 and then press button Start. If you enter a number greater than 50, the input field will automatically leave the number 50. 
+## Browser Compatibility
+
+All of the latest versions of <b>Chrome</b>, <b>Firefox</b>, <b>Edge</b> and <b>Opera</b> browsers are supported.
+
+## Installation
+
+#### Steps to install
+
+<ol>
+  <li>download the folder/git clone the repo</li>
+  <li>cd root directory of the folder</li>
+  <li>access localhost:5500 on your browser</li>
+</ol>
+
+## Screenshot
+
+You can enter a value from 1 to 50 and then press Start button. If you enter a number greater than 50, the input field will automatically leave the number 50. 
 The password will be generated. It will be shown 7 different passwords in each row.
-
-Demo: <a href="https://veronikagregorec.github.io/password-generator/">Password Generator</a>
 
 ![](screenshot/front.png)
